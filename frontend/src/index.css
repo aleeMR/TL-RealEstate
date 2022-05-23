@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #222831;
+}
+
+.App {
+  text-align: center;
+}
+
+.logo {
+  width: 45px;
+}
+
+.container-navbar {
+  padding: 10px 1rem;
+  align-items: center;
+  background-color: #f8fafc;
+}
+
+.container-title {
+  padding: 2rem 2rem;
+  padding-bottom: 0;
+}
+
+.container-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  column-gap: 80px;
+  row-gap: 40px;
+  padding: 0 2rem;
+}
+
+h2, h6 {
+  color: #f8fafc;
+}
+
+h6 {
+  text-align: left;
+  padding-bottom: 8px;
+}
+
+.container-card {
+  background-color: #f8fafc;
+}
+
+.container-bodyCard {
+  padding: 18px 25px;
+}
+
+.container-form {
+  margin-top: 5rem;
+  padding: 2rem 3rem;
+  background-color: #f8fafc;
+  border-radius: 8px;
+}
+
+.style-title {
+  margin-bottom: 15px;
+}
+
+.style-button {
+  margin-top: 12px;
+}
+
+.text-left {
+  text-align: left;
+}
